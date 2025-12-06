@@ -4,16 +4,43 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KEV Company – Premium Cement & Concrete Blocks</title>
-    <meta name="description"
-        content="KEV Company • Industrial cement and concrete blocks • Premium quality for professional builders">
+
+    <!-- Primary SEO -->
+    <title>KEV Company – Premium Cement & Concrete Blocks | Industrial Strength & Precision</title>
+    <meta name="description" content="KEV Company provides industrial-grade cement and concrete blocks with top durability and precision engineered for professional builders, contractors, and infrastructure projects.">
+    <meta name="keywords" content="cement factory, concrete blocks, industrial cement, KEV Company, cement Iraq, concrete production, construction materials, premium cement, concrete suppliers, cement manufacturers">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.kev-company.com/">
+
+    <!-- Robots -->
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="KEV Company">
     <meta name="theme-color" content="#1c1c1c">
-    <link rel="icon"
-        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%231c1c1c'/%3E%3Cpath d='M12 44 L24 20 L30 32 L38 20 L52 44' stroke='%23bcc3c6' stroke-width='6' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+Arabic:wght@300;400;600;800&display=swap"
-        rel="stylesheet">
+
+    <!-- Open Graph (Facebook, LinkedIn, WhatsApp) -->
+    <meta property="og:title" content="KEV Company – Premium Cement & Concrete Blocks">
+    <meta property="og:description" content="Premium industrial cement & concrete blocks engineered for professional builders and contractors. Strong. Reliable. Precise.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.kev-company.com/">
+    <meta property="og:site_name" content="KEV Company">
+    <meta property="og:image" content="https://www.kev-company.com/assets/kev-og-image.jpg"> <!-- Replace with real image -->
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="KEV Company – Premium Cement & Concrete Blocks">
+    <meta name="twitter:description" content="Industrial cement and precision concrete blocks for professional builders.">
+    <meta name="twitter:image" content="https://www.kev-company.com/assets/kev-og-image.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%231c1c1c'/%3E%3Cpath d='M12 44 L24 20 L30 32 L38 20 L52 44' stroke='%23bcc3c6' stroke-width='6' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
+
+    <!-- Fonts & CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+Arabic:wght@300;400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+    <!-- Tailwind -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -35,19 +62,38 @@
                         accent: 'var(--accent)',
                         white: 'var(--white)',
                         black: 'var(--black)',
-                    },
-                    animation: {
-                        'fade-in-up': 'fadeInUp 0.6s ease-out',
-                        'fade-in-down': 'fadeInDown 0.6s ease-out',
-                        'slide-in-left': 'slideInLeft 0.6s ease-out',
-                        'slide-in-right': 'slideInRight 0.6s ease-out',
-                        'scale-in': 'scaleIn 0.5s ease-out',
-                        'pulse-glow': 'pulseGlow 2s ease-in-out infinite',
-                        'float': 'float 6s ease-in-out infinite',
-                        'slide-up': 'slideUp 20s linear infinite',
                     }
                 }
             }
+        }
+    </script>
+
+    <!-- Schema.org Structured Data (Local Business + Product Manufacturer) -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "KEV Company",
+            "url": "https://www.kev-company.com/",
+            "logo": "https://www.kev-company.com/assets/logo.png",
+            "description": "Industrial cement and concrete block manufacturing company delivering high-strength materials for construction and infrastructure.",
+            "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "IQ",
+                "addressLocality": "Kurdistan Region",
+                "addressRegion": "Erbil",
+                "postalCode": "44001"
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+964-xxx-xxx-xxxx",
+                "contactType": "customer service",
+                "areaServed": "IQ"
+            },
+            "sameAs": [
+                "https://www.facebook.com/kevcompany",
+                "https://www.instagram.com/kevcompany"
+            ]
         }
     </script>
     <style>
@@ -692,11 +738,11 @@
                         <div
                             class="absolute inset-0 bg-brand rounded-lg blur-md opacity-0 group-hover:opacity-50 transition-opacity duration-300">
                         </div>
-                        <img class="h-10 w-10 relative transition-transform duration-300 group-hover:scale-110 group-hover:rotate-3"
+                        <img class="h-12 w-12 relative transition-transform duration-300 group-hover:scale-110 group-hover:rotate-3"
                             src="./logo.png"
                             alt="KEV Logo">
                     </div>
-                    <span class="hidden text-lg font-black tracking-tight sm:block gradient-text" data-i18n="brand">KEV
+                    <span class="hidden text-xl font-black tracking-tight sm:block" data-i18n="brand">KEV
                         Company</span>
                 </div>
 
@@ -725,9 +771,10 @@
                 </div>
 
                 <div class="flex flex-shrink-0 items-center gap-2">
-                    <button id="themeToggle"
-                        class="flex h-10 w-10 cursor-pointer items-center justify-center rounded-lg border border-line bg-surface-2 text-lg transition-all duration-300 hover:bg-brand hover:border-brand hover:scale-110 hover:rotate-12"
-                        aria-label="Toggle theme">🌓</button>
+                    <!-- <button id="themeToggle"
+                        class="d-noneflex h-10 w-10 cursor-pointer items-center justify-center rounded-lg border border-line bg-surface-2 text-lg transition-all duration-300 hover:bg-brand hover:border-brand hover:scale-110 hover:rotate-12"
+                        aria-label="Toggle theme">🌓</button> -->
+                    <!-- aria-label="Toggle theme">🌓</button> -->
                     <div class="hidden rounded-lg bg-surface-2 p-1 sm:flex gap-1">
                         <button
                             class="rounded-md px-3 py-1.5 text-xs font-semibold transition-all duration-300 hover:bg-brand hover:text-white"
@@ -789,7 +836,7 @@
                 <div
                     class="reveal mt-10 flex flex-col flex-wrap items-center justify-center gap-4 sm:flex-row delay-300">
                     <a href="#services"
-                        class="btn-glow group inline-flex w-full items-center justify-center gap-2 rounded-xl bg-brand px-8 py-4 text-base font-bold text-white shadow-lg transition-all duration-300 hover:shadow-2xl hover:scale-105 sm:w-auto">
+                        class="btn-glow inline-flex w-full items-center justify-center gap-2 rounded-xl border-2 border-white/30 bg-white/10 backdrop-blur-md px-8 py-4 text-base font-bold text-white shadow-lg transition-all duration-300 hover:bg-white/20 hover:border-white/50 hover:shadow-2xl hover:scale-105 sm:w-auto">
                         <span data-i18n="cta_services">View Services</span>
                         <svg class="h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" fill="none"
                             viewBox="0 0 24 24" stroke="currentColor">
@@ -798,7 +845,7 @@
                         </svg>
                     </a>
                     <a href="#contact"
-                        class="btn-glow inline-flex w-full items-center justify-center gap-2 rounded-xl border-2 border-white/30 bg-white/10 backdrop-blur-md px-8 py-4 text-base font-bold text-white shadow-lg transition-all duration-300 hover:bg-white/20 hover:border-white/50 hover:shadow-2xl hover:scale-105 sm:w-auto">
+                        class="btn-glow inline-flex w-full items-center justify-center bg-brand gap-2 rounded-xl border-2 border-white/30 bg-white/10 backdrop-blur-md px-8 py-4 text-base font-bold text-white shadow-lg transition-all duration-300 hover:bg-white/20 hover:border-white/50 hover:shadow-2xl hover:scale-105 sm:w-auto">
                         <span data-i18n="cta_quote">Get a Quote</span>
                     </a>
                 </div>
@@ -821,7 +868,7 @@
         <div class="container relative">
             <div class="text-center max-w-4xl mx-auto mb-16">
                 <h2 class="reveal text-4xl sm:text-5xl md:text-6xl font-black tracking-tight mb-6">
-                    <span class="gradient-text" data-i18n="about_title">Industrial-grade cement & block solutions</span>
+                    <span data-i18n="about_title">Industrial-grade cement & block solutions</span>
                 </h2>
                 <p class="reveal text-lg md:text-xl text-muted leading-relaxed delay-100" data-i18n="about_text">
                     ISO-aligned processes, premium aggregates, and continuous compression testing ensure consistency and
@@ -892,7 +939,7 @@
         <div class="container">
             <div class="text-center max-w-4xl mx-auto mb-16">
                 <h2 class="reveal text-4xl sm:text-5xl md:text-6xl font-black tracking-tight mb-6">
-                    <span class="gradient-text" data-i18n="services_title">Services & Products</span>
+                    <span data-i18n="services_title">Services & Products</span>
                 </h2>
                 <p class="reveal text-lg md:text-xl text-muted leading-relaxed delay-100" data-i18n="services_sub">
                     From standard blocks to custom mixes – engineered for your specs.
@@ -913,11 +960,11 @@
                             blocks with precise dimensions.</p>
                         <div class="flex flex-wrap gap-2">
                             <span
-                                class="rounded-full bg-brand/10 border border-brand/20 px-4 py-1.5 text-sm font-medium text-brand">100×200×400</span>
+                                class="rounded-full bg-brand/10 border border-brand/20 px-4 py-1.5 text-sm font-medium">100×200×400</span>
                             <span
-                                class="rounded-full bg-brand/10 border border-brand/20 px-4 py-1.5 text-sm font-medium text-brand">150×200×400</span>
+                                class="rounded-full bg-brand/10 border border-brand/20 px-4 py-1.5 text-sm font-medium">150×200×400</span>
                             <span
-                                class="rounded-full bg-brand/10 border border-brand/20 px-4 py-1.5 text-sm font-medium text-brand">200×200×400</span>
+                                class="rounded-full bg-brand/10 border border-brand/20 px-4 py-1.5 text-sm font-medium">200×200×400</span>
                         </div>
                     </div>
                 </div>
@@ -935,11 +982,11 @@
                             contractors & ready-mix plants.</p>
                         <div class="flex flex-wrap gap-2">
                             <span
-                                class="rounded-full bg-brand/10 border border-brand/20 px-4 py-1.5 text-sm font-medium text-brand">Clinker</span>
+                                class="rounded-full bg-brand/10 border border-brand/20 px-4 py-1.5 text-sm font-medium">Clinker</span>
                             <span
-                                class="rounded-full bg-brand/10 border border-brand/20 px-4 py-1.5 text-sm font-medium text-brand">Portland</span>
+                                class="rounded-full bg-brand/10 border border-brand/20 px-4 py-1.5 text-sm font-medium">Portland</span>
                             <span
-                                class="rounded-full bg-brand/10 border border-brand/20 px-4 py-1.5 text-sm font-medium text-brand">Bulk
+                                class="rounded-full bg-brand/10 border border-brand/20 px-4 py-1.5 text-sm font-medium">Bulk
                                 tankers</span>
                         </div>
                     </div>
@@ -958,11 +1005,11 @@
                             tolerances.</p>
                         <div class="flex flex-wrap gap-2">
                             <span
-                                class="rounded-full bg-brand/10 border border-brand/20 px-4 py-1.5 text-sm font-medium text-brand">60mm</span>
+                                class="rounded-full bg-brand/10 border border-brand/20 px-4 py-1.5 text-sm font-medium">60mm</span>
                             <span
-                                class="rounded-full bg-brand/10 border border-brand/20 px-4 py-1.5 text-sm font-medium text-brand">80mm</span>
+                                class="rounded-full bg-brand/10 border border-brand/20 px-4 py-1.5 text-sm font-medium">80mm</span>
                             <span
-                                class="rounded-full bg-brand/10 border border-brand/20 px-4 py-1.5 text-sm font-medium text-brand">100mm</span>
+                                class="rounded-full bg-brand/10 border border-brand/20 px-4 py-1.5 text-sm font-medium">100mm</span>
                         </div>
                     </div>
                 </div>
@@ -980,11 +1027,11 @@
                             concrete.</p>
                         <div class="flex flex-wrap gap-2">
                             <span
-                                class="rounded-full bg-brand/10 border border-brand/20 px-4 py-1.5 text-sm font-medium text-brand">3/8"</span>
+                                class="rounded-full bg-brand/10 border border-brand/20 px-4 py-1.5 text-sm font-medium">3/8"</span>
                             <span
-                                class="rounded-full bg-brand/10 border border-brand/20 px-4 py-1.5 text-sm font-medium text-brand">3/4"</span>
+                                class="rounded-full bg-brand/10 border border-brand/20 px-4 py-1.5 text-sm font-medium">3/4"</span>
                             <span
-                                class="rounded-full bg-brand/10 border border-brand/20 px-4 py-1.5 text-sm font-medium text-brand">Washed
+                                class="rounded-full bg-brand/10 border border-brand/20 px-4 py-1.5 text-sm font-medium">Washed
                                 sand</span>
                         </div>
                     </div>
@@ -1003,10 +1050,10 @@
                             tenders.</p>
                         <div class="flex flex-wrap gap-2">
                             <span
-                                class="rounded-full bg-brand/10 border border-brand/20 px-4 py-1.5 text-sm font-medium text-brand">12–22
+                                class="rounded-full bg-brand/10 border border-brand/20 px-4 py-1.5 text-sm font-medium">12–22
                                 MPa</span>
                             <span
-                                class="rounded-full bg-brand/10 border border-brand/20 px-4 py-1.5 text-sm font-medium text-brand">ISO
+                                class="rounded-full bg-brand/10 border border-brand/20 px-4 py-1.5 text-sm font-medium">ISO
                                 certified</span>
                         </div>
                     </div>
@@ -1024,11 +1071,11 @@
                         <p class="text-muted mb-4 leading-relaxed">Fleet and cranes for fast, safe site deliveries.</p>
                         <div class="flex flex-wrap gap-2">
                             <span
-                                class="rounded-full bg-brand/10 border border-brand/20 px-4 py-1.5 text-sm font-medium text-brand">Flatbeds</span>
+                                class="rounded-full bg-brand/10 border border-brand/20 px-4 py-1.5 text-sm font-medium">Flatbeds</span>
                             <span
-                                class="rounded-full bg-brand/10 border border-brand/20 px-4 py-1.5 text-sm font-medium text-brand">Cranes</span>
+                                class="rounded-full bg-brand/10 border border-brand/20 px-4 py-1.5 text-sm font-medium">Cranes</span>
                             <span
-                                class="rounded-full bg-brand/10 border border-brand/20 px-4 py-1.5 text-sm font-medium text-brand">Schedule-first</span>
+                                class="rounded-full bg-brand/10 border border-brand/20 px-4 py-1.5 text-sm font-medium">Schedule-first</span>
                         </div>
                     </div>
                 </div>
@@ -1042,7 +1089,7 @@
 
         <div class="container relative">
             <div class="text-center max-w-4xl mx-auto mb-16">
-                <h2 class="reveal text-4xl sm:text-5xl md:text-6xl font-black tracking-tight mb-6 gradient-text">
+                <h2 class="reveal text-4xl sm:text-5xl md:text-6xl font-black tracking-tight mb-6">
                     Specifications
                 </h2>
                 <p class="reveal text-lg md:text-xl text-muted leading-relaxed delay-100">
@@ -1110,7 +1157,7 @@
     <section id="clients" class="border-b border-line bg-surface py-20 md:py-32">
         <div class="container">
             <div class="text-center max-w-4xl mx-auto mb-16">
-                <h2 class="reveal text-4xl sm:text-5xl md:text-6xl font-black tracking-tight mb-6 gradient-text">
+                <h2 class="reveal text-4xl sm:text-5xl md:text-6xl font-black tracking-tight mb-6">
                     Trusted By
                 </h2>
                 <p class="reveal text-lg md:text-xl text-muted leading-relaxed delay-100">
@@ -1167,7 +1214,7 @@
 
         <div class="container relative">
             <div class="text-center max-w-4xl mx-auto mb-16">
-                <h2 class="reveal text-4xl sm:text-5xl md:text-6xl font-black tracking-tight mb-6 gradient-text">
+                <h2 class="reveal text-4xl sm:text-5xl md:text-6xl font-black tracking-tight mb-6">
                     Our Facilities & Operations
                 </h2>
                 <p class="reveal text-lg md:text-xl text-muted leading-relaxed delay-100">
@@ -1232,7 +1279,7 @@
         <div class="container">
             <div class="text-center max-w-4xl mx-auto mb-16">
                 <h2 class="reveal text-4xl sm:text-5xl md:text-6xl font-black tracking-tight mb-6">
-                    <span class="gradient-text" data-i18n="projects_title">Projects</span>
+                    <span data-i18n="projects_title">Projects</span>
                 </h2>
                 <p class="reveal text-lg md:text-xl text-muted leading-relaxed delay-100" data-i18n="projects_sub">
                     A glimpse of sites supplied with KEV blocks and cement.
@@ -1284,7 +1331,7 @@
     <section id="quality" class="border-b border-line bg-surface py-20 md:py-32">
         <div class="container">
             <div class="text-center max-w-4xl mx-auto mb-16">
-                <h2 class="reveal text-4xl sm:text-5xl md:text-6xl font-black tracking-tight mb-6 gradient-text">
+                <h2 class="reveal text-4xl sm:text-5xl md:text-6xl font-black tracking-tight mb-6">
                     Commitment to Quality
                 </h2>
                 <p class="reveal text-lg md:text-xl text-muted leading-relaxed delay-100">
@@ -1345,7 +1392,7 @@
         <div class="container relative">
             <div class="max-w-4xl mx-auto mb-16">
                 <h2 class="reveal text-4xl sm:text-5xl md:text-6xl font-black tracking-tight mb-6">
-                    <span class="gradient-text" data-i18n="story_title">Our Story</span>
+                    <span data-i18n="story_title">Our Story</span>
                 </h2>
                 <p class="reveal text-lg md:text-xl text-muted leading-relaxed delay-100" data-i18n="story_sub">
                     From a small workshop to a modern production line with rigorous quality control.
@@ -1427,7 +1474,7 @@
             <div class="grid grid-cols-1 gap-12 lg:grid-cols-5">
                 <div class="lg:col-span-3">
                     <h2 class="reveal text-4xl sm:text-5xl md:text-6xl font-black tracking-tight mb-6">
-                        <span class="gradient-text" data-i18n="contact_title">Get a Quote</span>
+                        <span data-i18n="contact_title">Get a Quote</span>
                     </h2>
                     <p class="reveal text-lg md:text-xl text-muted leading-relaxed mb-8 delay-100"
                         data-i18n="contact_sub">
@@ -1516,7 +1563,7 @@
     </section>
 
     <!-- Floating Action Buttons -->
-    <div class="fab-container fixed bottom-6 right-6 z-40 flex flex-col gap-3">
+    <div class="fab-container fixed bottom-6 right-6 z-40 flex flex-col gap-3" style="display: none;">
         <a href="https://wa.me/9647000000000" target="_blank" rel="noopener"
             class="fab-item flex items-center gap-3 rounded-xl border border-line bg-surface-2/90 p-4 font-bold text-text shadow-lg group">
             <svg class="h-6 w-6 text-green-500 transition-transform duration-300 group-hover:scale-110"
@@ -1553,7 +1600,7 @@
                                 src="./logo.png"
                                 alt="KEV Logo">
                         </div>
-                        <span class="text-xl font-black tracking-tight gradient-text" data-i18n="brand">KEV
+                        <span class="text-xl font-black tracking-tight" data-i18n="brand">KEV
                             Company</span>
                     </div>
                     <p class="max-w-sm text-base text-muted leading-relaxed" data-i18n="hero_sub">
@@ -1846,13 +1893,13 @@
             });
 
             // Theme Toggle
-            const themeToggle = document.getElementById('themeToggle');
+            //const themeToggle = document.getElementById('themeToggle');
             const docElement = document.documentElement;
             const themeKey = 'kev-theme-preference';
 
             const setTheme = (theme) => {
                 docElement.setAttribute('data-theme', theme);
-                themeToggle.textContent = theme === 'dark' ? '🌓' : '☀️';
+                //themeToggle.textContent = theme === 'dark' ? '🌓' : '☀️';
                 localStorage.setItem(themeKey, theme);
             };
 
@@ -1861,10 +1908,10 @@
                 setTheme(savedTheme);
             };
 
-            themeToggle.addEventListener('click', () => {
-                const currentTheme = docElement.getAttribute('data-theme');
-                setTheme(currentTheme === 'dark' ? 'light' : 'dark');
-            });
+            // themeToggle.addEventListener('click', () => {
+            //     const currentTheme = docElement.getAttribute('data-theme');
+            //     setTheme(currentTheme === 'dark' ? 'light' : 'dark');
+            // });
 
             loadTheme();
 
